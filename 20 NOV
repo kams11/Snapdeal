@@ -1,0 +1,99 @@
+
+var str1 = "kandy";
+var str2 = 'mandy';
+var str3 = `sandy`;
+var str4 = new String("dinga");
+
+console.log(typeof str1);  
+console.log(typeof str2);
+console.log(typeof str3);  //string
+console.log(typeof str4.valueOf);  //function
+
+var num =10;
+num = 10.5;
+num = 10/5;
+var num1 = new Number(2);
+
+console.log(typeof num); //number
+console.log(typeof num1.valueOf);   //function
+
+var username;
+console.log(typeof username);  //undefined
+
+var testnull= null;
+console.log(typeof testnull);  //object
+
+var bool = true;
+var bool1 = new Boolean();
+console.log(typeof bool);  //boolean 
+console.log(typeof bool1);  //object
+
+var array = ["java","python",undefined,null,{},function() {},true ];
+console.log(array.length);  //7
+console.log(array[0]);  //java
+
+for( var i=0;i<=array.length;i++)   //iterating all
+  {
+    console.log(array[i])
+  };
+
+---------------------------------------------------------------------------------------
+
+
+
+// var array = ["java","python",undefined,null,{},function() {},true ];
+// var str = "hello javascript";
+
+// var splitType= str.split("");   
+// var splitType1= str.split(" "); 
+// var splitType2= str.split("  "); 
+// console.log(splitType);  //each letter
+// console.log(splitType1);  //word
+// console.log(splitType2);  //whole string 
+
+// var es6toconvertstringintoArry = Array.from(str);
+// console.log(es6toconvertstringintoArry);
+
+// console.log(Array.isArray(array));
+// console.log(Array.isArray(str));
+
+
+// var [...newWay]= str;
+// console.log(typeof newWay);
+// console.log(Array.isArray(newWay));
+
+// newWay.forEach(function(x)
+//   {
+//     console.log(x)
+//   }
+
+// );
+
+-----------------------------------------------------------------------------------
+
+
+
+var array1 = ["java","python",undefined,null,{},function() {},true ];
+var str = "javascript";
+var array2 = ["shashi","manu"];
+
+var arrayIntoString = array1.toString();
+var onemorewayArrayToString = array1.join(`😆anu🤣`);
+
+
+// console.log(arrayIntoString);
+// console.log(typeof arrayIntoString);
+
+console.log(onemorewayArrayToString);
+console.log(typeof onemorewayArrayToString);
+
+// var totalArray = array1.concat(array2);   //concat two array (es5way)
+// console.log(totalArray);
+
+// var es6way = [...array1, ...array2, ...str];  //new way (es6way) for combining array and string
+// console.log(es6way);
+
+
+
+
+

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    background: #eee;
+
+}
+
+#headerSection {
+    background-color: #e40046;
+    height: 100px;
+}
+
+#headerSection .marginleftandrightspace, .logoandcartsection,#ContentSection>article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topMenu p{
+    margin: 0;
+    background: #c7003d;
+}
+
+.topMenu {
+    height: 30px;
+    position: relative;
+z-index: 1;
+color: #d8d8d8;
+line-height: 28px;
+font-size: 12px;
+background: #c7003d
+
+}
+.leftpara {
+    width: 50%;
+    float: left;
+}
+
+.rightUlMenu {
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50;
+    float: right;
+    background: #c7003d;
+}
+
+.rightUlMenu li {
+    display: inline-block;
+
+}
+.rightUlMenu li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+#headerSection article {
+    width: 90;
+    margin: 0 auto;
+}
+
+/*  logo and cart section */
+
+.logoandcartsection>article>div {
+    display: inline-block;
+}
+
+.logoandcartsection>article>.logo {
+    width: 17%;
+    float: left;
+   
+    position: relative;
+    top: 18px;
+}
+.logoandcartsection>article>.search {
+    line-height: 70px;
+    width: 63%;
+    float: left;
+    font
+}
+.logoandcartsection>article>.cart {
+    width: 20%;
+    float: right;
+    line height: 70px;
+    
+}
+
+#search {
+    
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    color: #909090;
+}
+.searchtext {
+    padding: 8px 30px;
+    background: #111;
+    color: #ffffff;
+    margin: 0px -5px;
+    border-radius: 0px 3px 3px 0px;
+    position: relative;
+    top: 1px;
+}
+
+#insideDiv {
+    display: none;
+    background: black;
+}
+.rightNavigation {
+    list-style: none;
+    padding: 0;
+    margin 0;
+    
+}
+.rightNavigation li {
+    display: inline-block;
+    
+}
+.rightNavigation li a {
+    line-height: 40px;
+    padding: 26px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+ #fa-shopping-cart{
+    font-size: 24px;
+    }
+
+    .fa-shopping-cart:before {
+        font-size: 25px;
+        color: white;
+    }
+    #fa-user{
+        font-size: 24px;
+        }
+    
+        .fa-user:before {
+            font-size: 25px;
+                        color: white;
+                        background-color: #c55376
+                        
+            ;
+        }
+            .rightNavigation li #insideDiv .bottomText {
+                color: cornsilk;
+            }
+
+
+.rightNavigation li:nth-child(2)a:hover {
+    background: black;
+}
+.rightNavigation li:nth-child(2):hover #insideDiv {
+    background: ;
+    display: table-cell;
+    position: fixed;
+    padding-inline-start: 40px;
+}
+
+/*content section starts here*/
+#ContentSection {
+    background: #eee;
+    height: 100vh;
+}
+  #ContentSection>article {
+   margin-top: 50px ;
+  } 
+
+.contentLeft {
+    width: 20%;
+    float: left;
+    background: white;
+}
+.contentMiddle {
+    width: 56%;
+    background: white;
+    float: left;
+    margin: 0px 2%;
+}
+.contentRight {
+    width: 20%;
+    float: left;
+    background: white;
+}
+.contentLeft h5 {
+    padding: 15px;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.menulist {
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+.menulist li a {
+    color: #111;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+    
+}
+.menulist li a:hover {
+    border-left:3px solid red ;
+    background: white;
+    transition: ease-in-out all 0.5s;
+
+}
+.all_offers_icons {
+    background: url(../images/Discount_Right_icon-f5105.png);
+    
+    background-size: cover; /*--important--*/
+}
+
+
+.icon_images {
+    height: 37px;
+    width: 37px;
+    background-repeat:no-repeat ;
+    display: inline-block;
+
+}
+
+.Mobile_Tablets_icons {
+    background: url(../images/Mobile\ &\ Tablets.png);
+    background-size: cover;
+}
+.Electronics_icons {
+    background: url(../images/Electronics.png);
+    background-size: cover;
+}
+.Home_kitchens_icons {
+    background: url(../images/home.jpg);
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
